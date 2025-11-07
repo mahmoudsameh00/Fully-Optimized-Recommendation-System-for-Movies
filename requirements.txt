@@ -9,4 +9,4 @@ faiss-cpu
 sentence-transformers==5.0.0
 transformers==4.53.3
 requests
-scikit-learn
+scikit-learn==1.6.1
