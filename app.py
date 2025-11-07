@@ -42,7 +42,7 @@ def load_resources():
 
     """Loads all models, data, and builds the FAISS index."""
 
-    st.info("Loading resources... This may take a moment.")
+    # st.info("Loading resources... This may take a moment.")
 
     Scrap2.API_KEY = os.environ.get('API_KEY')
 
@@ -142,7 +142,7 @@ def load_resources():
 
 
 
-    st.success("Resources loaded successfully!")
+    # st.success("Resources loaded successfully!")
 
     return encoder, sbert_model, index, all_titles, preprocessor, all_movie_details, df_embed, all_titles_lower, title_to_embedding, lower_to_canonical_title
 
