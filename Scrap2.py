@@ -100,7 +100,7 @@ def fetch_movie_data_for_display(title_query, dataset_release_year=None, needs_p
             target_result = search_data['results'][0]
         else:
             print(f"API: Searching for exact year {dataset_release_year}...")
-            top_results = search_data['results'][:6] # Get top results once
+            top_results = search_data['results'][:10] # Get top results once
 
             for result in top_results:
                 api_date = result.get('release_date', '') # e.g., '1995-12-15'
