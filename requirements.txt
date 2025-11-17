@@ -8,4 +8,4 @@ faiss-cpu
 sentence-transformers
 requests
 tf-keras
-scikit-learn
+scikit-learn==1.3.2
